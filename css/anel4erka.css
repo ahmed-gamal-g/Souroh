@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Cairo", sans-serif; */
+  font-family: Handel Gothic;
+  overflow-x: hidden;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+nav {
+  background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #be1e2d;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.res-large {
+  display: none;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+  .res-mobile {
+    display: none;
+  }
+  .res-large {
+    display: inline-block;
+  }
+
+  .navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+}
+/*End Nav  */
+
+/* start section el4erka */
+.caro {
+  margin: 100px auto;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color: black;
+  border-radius: 46px;
+}
+
+.enwan-carousel {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.enwan-carousel .khat-carousel {
+  width: 100px;
+  height: 2px;
+  background-color: #be1e2d;
+  margin: 20px auto;
+}
+
+.carousel-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.carousel {
+  width: 30%;
+}
+
+.carousel img {
+  border-radius: 10px;
+}
+
+.text-carousel {
+  /* background: silver; */
+  /* padding: 20PX; */
+  width: 60%;
+}
+
+.text-carousel p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+@media (max-width: 991px) {
+  .carousel-text {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel {
+    width: 100%;
+    /* margin-right: 20px; */
+  }
+  .text-carousel {
+    /* background: silver; */
+    /* padding: 20PX; */
+    width: 100%;
+  }
+}
+
+/* end section el4erka */
+
+/* start footer */
+footer {
+  background-color: #be1e2d;
+  padding: 20px 0;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+footer .link-footer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 50%;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+footer .link-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .link-footer a:hover {
+  color: wheat;
+}
+
+/* footer .link-footer a:not(:last-child){
+    margin-right: 50px;
+  } */
+
+.copyright {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  footer .link-footer a:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  footer .link-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* end footer */
